@@ -1,0 +1,37 @@
+name: omni_ai_ide
+description: A world-class Multi-Cloud AI Orchestrator & Native Gradio Workspace Super-App.
+publish_to: 'none'
+version: 2.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+  flutter: '>=3.22.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # State Management (Stable for Dart 3.4.x)
+  flutter_riverpod: ^2.5.1
+
+  # Network & API Bridge
+  http: ^1.2.0
+  web_socket_channel: ^3.0.0
+
+  # Web & Gradio Workspace View
+  webview_flutter: ^4.8.0
+
+  # Security & Credentials Vault
+  flutter_secure_storage: ^9.2.2
+  local_auth: ^2.3.0
+
+  # File & Storage Utilities
+  path_provider: ^2.1.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
