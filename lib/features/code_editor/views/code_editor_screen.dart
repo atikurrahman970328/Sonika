@@ -1,3 +1,7 @@
+// ==========================================
+// FILE: lib/features/code_editor/views/code_editor_screen.dart
+// ==========================================
+
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import '../controllers/code_editor_controller.dart';
@@ -35,7 +39,8 @@ class CodeEditorScreen extends ConsumerWidget {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Row(
-                    mainAxisAlignment: MainAxisAlignment.between,
+                    // সঠিক প্রপার্টি 'spaceBetween' এখানে ঠিক করে দেওয়া হয়েছে
+                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
                       Text(
                         'সেল #${index + 1} (${cell.cellType.toUpperCase()})',
