@@ -1,8 +1,0 @@
-/build/
-.dart_tool/
-.packages
-pubspec.lock
-android/.gradle/
-ios/.symlinks/
-.idea/
-*.iml
